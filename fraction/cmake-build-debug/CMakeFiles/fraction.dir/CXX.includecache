@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/3_semester/fraction/main.cpp
+iostream
+-
+rational.h
+E:/3_semester/fraction/rational.h
+
+E:/3_semester/fraction/rational.cpp
+iostream
+-
+rational.h
+E:/3_semester/fraction/rational.h
+
+E:/3_semester/fraction/rational.h
+iostream
+-
+

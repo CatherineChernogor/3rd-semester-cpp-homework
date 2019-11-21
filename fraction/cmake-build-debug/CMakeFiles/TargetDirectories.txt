@@ -1,0 +1,3 @@
+E:/3_semester/fraction/cmake-build-debug/CMakeFiles/fraction.dir
+E:/3_semester/fraction/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/3_semester/fraction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
