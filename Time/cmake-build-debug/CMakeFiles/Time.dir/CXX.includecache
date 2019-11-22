@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/3rd-semester-cpp-homework/Time/main.cpp
+iostream
+-
+time.h
+E:/3rd-semester-cpp-homework/Time/time.h
+
+E:/3rd-semester-cpp-homework/Time/time.h
+iostream
+-
+
