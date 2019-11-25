@@ -7,37 +7,37 @@
 using namespace std;
 
 Time::Time() {
-     hours = 0;
+     hour = 0;
      mins =0;
-     secs = 0;
+     sec = 0;
 
 }
 Time::Time(int hh, int mm, double ss ) {
-     hours = hh;
+     hour = hh;
      mins =mm;
-     secs = ss;
+     sec = ss;
 }
 
 
 Time& Time::operator +=(const Time& t) {
 
     int delta;
-    if ( secs + t.secs <60)
-        secs = secs + t.secs;
+    if ( sec + t.sec <60)
+        sec = sec + t.sec;
     else {
-        delta = (secs + t.secs) / 60;
+        delta = (sec + t.sec) / 60;
         mins += delta;
-        secs += secs + t.secs - delta + 60;
+        sec += t.sec - delta * 60;
     }
 
     if ( mins + t.mins <60)
         mins = mins + t.mins;
     else {
         delta = (mins + t.mins) / 60;
-        hours += delta;
-        mins += mins + t.mins - delta + 60;
+        hour += delta;
+        mins += t.mins - delta * 60;
     }
-    hours = hours + t.hours;
+    hour = hour + t.hour;
     return *this;
 
 }
@@ -48,11 +48,29 @@ Time Time::operator +(const Time &t) const {
 }
 
 Time Time::operator -() const {
-    Time t(-hours, -mins, -secs);
+    Time t(-hour, -mins, -sec);
     return t;
 }
 Time& Time::operator -=(const Time& t) {
-    return (*this += (-t));
+
+    if ( sec - t.sec >= 0)
+        sec = sec - t.sec;
+    else {
+        mins--;
+        sec = sec + 60 - t.sec;
+    }
+
+    if ( mins - t.mins >= 0)
+        mins = mins - t.mins;
+    else {
+        hour--;
+        mins = mins + 60 - t.mins;
+    }
+
+    if ( hour - t.hour >= 0)
+        hour = hour - t.hour;
+    else throw TimeException();
+    return *this;
 
 }
 Time Time::operator -(const Time& t) const{
@@ -60,13 +78,13 @@ Time Time::operator -(const Time& t) const{
     return res -= t;
 }
 istream& operator >>(istream& in, Time& t) {
-    in >> t.hours >> t.mins >> t.secs;
+    in >> t.hour >> t.mins >> t.sec;
     return in;
 }
 ostream& operator <<(ostream& out, const Time& t) {
-    out << setfill('0') << setw(2) << t.hours << ":" << t.mins<<":";
-    out<<setprecision(5) <<t.secs<<endl;
-    //out << t.hours << ":" << t.mins<<":"<<t.secs<<endl;
+    out << setfill('0') << setw(2) << t.hour << ":"<<setfill('0') << setw(2) << t.mins<<":";
+    out<<setfill('0') << setw(2)<<setprecision(5) <<t.sec<<endl;
+    //out << t.hour << ":" << t.mins<<":"<<t.sec<<endl;
 
     return out;
 }

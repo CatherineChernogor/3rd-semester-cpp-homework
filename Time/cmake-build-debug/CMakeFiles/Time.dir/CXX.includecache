@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/3rd-semester-cpp-homework/Time/main.cpp
-iostream
--
+E:/3rd-semester-cpp-homework/Time/time.cpp
 time.h
 E:/3rd-semester-cpp-homework/Time/time.h
+iostream
+-
+iomanip
+-
 
 E:/3rd-semester-cpp-homework/Time/time.h
 iostream

@@ -8,11 +8,15 @@
 
 using namespace std;
 
+class TimeException {
+
+};
+
 class Time {
 public:
-    int hours;
+    int hour;
     int mins;
-    double secs;
+    double sec;
 
     Time();
     Time(int hh, int mm, double ss);
