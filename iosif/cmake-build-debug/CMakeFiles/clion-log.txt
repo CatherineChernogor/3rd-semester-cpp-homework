@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\3_semester\iosif
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\3rd-semester-cpp-homework\iosif
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/3_semester/iosif/cmake-build-debug
+-- Build files have been written to: E:/3rd-semester-cpp-homework/iosif/cmake-build-debug

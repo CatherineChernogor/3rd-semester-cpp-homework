@@ -2,51 +2,40 @@
 #include "rational.h"
 
 int Rational::rsqr(int a){
-    int x=a;
-    int preX=0;
-    while(true){
-        x= (x + a / x)/2;
-        if (x==preX)
-            break;
-        }
-	return x;
+    int n = 0, x = 1;
+    a=abs(a);
+    while (n != x){
+        n = a / x;
+        if (n == x)
+            return x;
+        x++;
+    }
 }
 
 Rational Rational::rsqrt() {
     Rational res(*this);
+    res.simplify();
     res.denom = rsqr(res.denom);
     res.numer = rsqr(res.numer);
     return res;
 }
 
-/*
-int pow(int base, int power)
-{
-	long long result = 1;
-	while (power > 0) {
-
-		if (power % 2 == 1) { // Can also use (power & 1) to make code even faster
-			result = (result*base);
-		}
-		base = (base * base);
-		power = power / 2; // Can also use power >>= 1; to make code even faster
-	}
-	return result;
-	
-}
-*/
 void Rational::simplify() {
-	if (denom < 0) {
-		numer = -numer;
-		denom = -denom;
-	}
-	for (int i = 2; i <= abs(denom) && i <= abs(numer); i++) {
-		if (numer % i == 0 && denom % i == 0) {
-			numer /= i;
-			denom /= i;
-			i--;
-		}
-	}
+    int g = gcd(numer, denom);
+    numer /= g;
+    denom /= g;
+}
+int Rational::gcd(int a, int b) {
+    a = abs(a);
+    b = abs(b);
+    if (a < b) {
+        int buf = b;
+        b = a;
+        a = buf;
+    }
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
 }
 Rational::Rational() {
 	numer = 0;

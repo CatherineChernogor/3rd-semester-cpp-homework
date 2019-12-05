@@ -11,7 +11,68 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c38208-d8b2-4138-a072-baae5f488bc8" name="Default Changelist" comment="" />
+    <list default="true" id="f0c38208-d8b2-4138-a072-baae5f488bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iosif/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iosif/circleList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/cmake-build-debug/CMakeFiles/Time.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/cmake-build-debug/Time.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/cmake-build-debug/Time.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Time/time.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Time/time.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/rational.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fraction.dir/rational.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fraction.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fraction.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fraction.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fraction.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rational.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/rational.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rational.h" beforeDir="false" afterPath="$PROJECT_DIR$/rational.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/CMakeFiles/iosif.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/iosif.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/iosif.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/cmake-build-debug/iosif.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/cmake-build-debug/iosif.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/lineList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/lineList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iosif/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../iosif/main.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +83,15 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SmK9TKbbD2LLYSVqvb0I3ftBdP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.cpp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -65,10 +131,22 @@
       <workItem from="1572414683286" duration="496000" />
       <workItem from="1572416268467" duration="2315000" />
       <workItem from="1573186052564" duration="288000" />
+      <workItem from="1575555971130" duration="7218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

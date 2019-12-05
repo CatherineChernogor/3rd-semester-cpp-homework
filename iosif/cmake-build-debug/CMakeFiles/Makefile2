@@ -43,10 +43,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\3_semester\iosif
+CMAKE_SOURCE_DIR = E:\3rd-semester-cpp-homework\iosif
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\3_semester\iosif\cmake-build-debug
+CMAKE_BINARY_DIR = E:\3rd-semester-cpp-homework\iosif\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/iosif.dir/all:
 	$(MAKE) -f CMakeFiles\iosif.dir\build.make CMakeFiles/iosif.dir/depend
 	$(MAKE) -f CMakeFiles\iosif.dir\build.make CMakeFiles/iosif.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\3_semester\iosif\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target iosif"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\3rd-semester-cpp-homework\iosif\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target iosif"
 .PHONY : CMakeFiles/iosif.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/iosif.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\3_semester\iosif\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\3rd-semester-cpp-homework\iosif\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/iosif.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\3_semester\iosif\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\3rd-semester-cpp-homework\iosif\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/iosif.dir/rule
 
 # Convenience name for target.

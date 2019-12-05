@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/3_semester/iosif/main.cpp" "E:/3_semester/iosif/cmake-build-debug/CMakeFiles/iosif.dir/main.cpp.obj"
+  "E:/3rd-semester-cpp-homework/iosif/main.cpp" "E:/3rd-semester-cpp-homework/iosif/cmake-build-debug/CMakeFiles/iosif.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

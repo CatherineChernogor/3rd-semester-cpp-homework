@@ -20,7 +20,7 @@ int main() {
 }
 Time inputTime() {
 
-    cout<<"Enter date"<<endl;
+    cout<<"Enter time(hh mm ss)"<<endl;
     int t[2];
     double sec;
 

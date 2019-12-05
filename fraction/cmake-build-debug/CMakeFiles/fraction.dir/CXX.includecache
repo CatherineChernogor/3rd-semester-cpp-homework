@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/3_semester/fraction/main.cpp
+E:/3rd-semester-cpp-homework/fraction/main.cpp
 iostream
 -
 rational.h
-E:/3_semester/fraction/rational.h
+E:/3rd-semester-cpp-homework/fraction/rational.h
 
-E:/3_semester/fraction/rational.cpp
-iostream
--
-rational.h
-E:/3_semester/fraction/rational.h
-
-E:/3_semester/fraction/rational.h
+E:/3rd-semester-cpp-homework/fraction/rational.h
 iostream
 -
 

@@ -3,4 +3,4 @@ project(iosif)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(iosif main.cpp lineList.h)
+add_executable(iosif main.cpp lineList.h circleList.h)

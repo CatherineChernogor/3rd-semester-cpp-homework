@@ -12,10 +12,9 @@ template <class T> class LineListElem {
 public:
 	LineListElem(const T& adata, LineListElem* anext);
 	const T& getData() const;
-	LineListElem* getNext();
+	LineListElem<T>* getNext();
 	template <class> friend class LineList;
 };
-
 template <class T> class LineList {
 
 	LineList(const LineList& list);
@@ -39,7 +38,6 @@ template <class T> LineListElem<T>::LineListElem(const T& adata, LineListElem<T>
 	next = anext;
 }
 template <class T> LineListElem<T>* LineList<T>::getStart() {
-
 	return start;
 }
 template <class T> void LineList<T>::setStart(LineListElem<T>* ptr) {
@@ -50,7 +48,6 @@ template <class T> void LineList<T>::setStart(LineListElem<T>* ptr) {
     }
 }
 template <class T> const T& LineListElem<T>::getData() const {
-
 	return data;
 }
 template <class T> LineListElem<T>* LineListElem<T>::getNext(){
@@ -63,12 +60,13 @@ template <class T> LineList<T>::~LineList(){
 	while (start)
 		deleteFirst();
 }
+
 template <class T> void LineList<T>::deleteFirst() {
 	if (start) {
 		LineListElem<T>* temp = start->next;
-		delete start;
-		start = temp;
-	}
+        delete start;
+        start = temp;
+    }
 	else throw LineListException();
 }
 template <class T> void LineList<T>::insertFirst(const T& data){

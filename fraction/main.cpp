@@ -4,52 +4,50 @@
 
 using namespace std;
 
+void solve_equation(Rational a, Rational b, Rational c);
 int main()
 {
-
     int a1, a2;
-    char str;
 
     while (true){
         cout <<endl<< "enter first rational number" << endl;
         cin >> a1 >> a2;
         Rational a(a1, a2);
 
-        cout <<endl<< "enter operation" << endl;
-        cin >> str;
+        //cout<<a.rsqrt()<<endl;
 
         cout << "enter second rational number" << endl;
         cin >> a1 >> a2;
         Rational b(a1, a2);
 
-
-        if (a1 == 0 and a2 == 0)
-            break;
+        //cout<<b.rsqrt()<<endl;
 
 
-        if (str == '+')
-            cout << "a=" << a << " b=" << b << endl<< "a+b=" << a + b << endl;
-        if (str == '-')
-            cout << "a=" << a << " b=" << b << endl<< "a-b=" << a - b << endl;
-        if (str == '*')
-            cout << "a=" << a << " b=" << b << endl<< "a*b=" << a * b << endl;
-        if (str == '/')
-            cout << "a=" << a << " b=" << b << endl<< "a/b=" << a / b << endl;
-        if (str == '>') {
-            cout << "a=" << a << " b=" << b << endl<< "a>b ";
-            a > b ? cout << 'y' : cout << 'n';
-            cout << endl;
-        }
-        if (str == '<') {
-            cout << "a=" << a << " b=" << b << endl<< "a<b ";
-            a < b ? cout << 'y' : cout << 'n';
-            cout << endl;
-        }
-        if (str == 's'){
-            cout << "a=" << a << " b=" << b << endl<< "sqrt=" <<a.rsqrt() << endl;
+        cout << "enter third rational number" << endl;
+        cin >> a1 >> a2;
+        Rational c(a1, a2);
 
-        }
+        //cout<<c.rsqrt()<<endl;
 
+
+        solve_equation(a, b, c);
     }
 
+}
+
+void solve_equation(Rational a, Rational b, Rational c){
+
+    Rational D = b*b-Rational(4)*a*c;
+
+    if (D>Rational(0)){
+        cout<<"first "<<(-b+D.rsqrt())/(Rational(2)*a)<<endl;
+        cout<<"second "<<(-b-D.rsqrt())/(Rational(2)*a)<<endl;
+
+    }else if (D==Rational(0)){
+        cout<< -b/(Rational(2)*a);
+
+    } else {
+        cout<<"That's complex number";
+    }
+    cout<<endl;
 }

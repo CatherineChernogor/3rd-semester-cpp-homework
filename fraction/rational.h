@@ -9,6 +9,7 @@ class Rational {
 public:
     int rsqr(int a);
     Rational rsqrt();
+    int gcd(int a, int b);
 
     Rational();
     Rational(int n);

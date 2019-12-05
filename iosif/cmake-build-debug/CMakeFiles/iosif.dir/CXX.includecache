@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/3_semester/iosif/lineList.h
-iostream
--
+E:/3rd-semester-cpp-homework/iosif/circleList.h
 
-E:/3_semester/iosif/main.cpp
+E:/3rd-semester-cpp-homework/iosif/main.cpp
 iostream
 -
-lineList.h
-E:/3_semester/iosif/lineList.h
+circleList.h
+E:/3rd-semester-cpp-homework/iosif/circleList.h
 

@@ -9,7 +9,7 @@ using namespace std;
 Time::Time() {
      hour = 0;
      mins =0;
-     sec = 0;
+     sec = 0.0;
 
 }
 Time::Time(int hh, int mm, double ss ) {
