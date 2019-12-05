@@ -128,15 +128,32 @@ bool Rational::operator >= (const Rational& r) const {
 Rational::operator int() const {
 	return numer / denom;
 }
+
 Rational::operator double() const {
-	return ((double)numer) / denom;
+    return (double) this->numer / (double) this->denom;
+}
+
+Rational Rational::operator + (int a) const {
+    return *this + Rational(a);
+}
+
+Rational Rational::operator - (int a) const {
+    return *this - Rational(a);
+}
+
+Rational Rational::operator * (int a) const {
+    return *this * Rational(a);
+}
+
+Rational Rational::operator / (int a) const {
+    return *this / Rational(a);
 }
 
 istream& operator >>(istream& in, Rational& r) {
-	in >> r.numer >> r.denom;
-	return in;
+    in >> r.numer >> r.denom;
+    return in;
 }
 ostream& operator <<(ostream& out, const Rational& r) {
-	out << r.numer << "/" << r.denom;
-	return out;
+    out << r.numer << "/" << r.denom;
+    return out;
 }

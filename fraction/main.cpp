@@ -37,14 +37,14 @@ int main()
 
 void solve_equation(Rational a, Rational b, Rational c){
 
-    Rational D = b*b-Rational(4)*a*c;
+    Rational D = b*b-a*c*4;
 
     if (D>Rational(0)){
-        cout<<"first "<<(-b+D.rsqrt())/(Rational(2)*a)<<endl;
-        cout<<"second "<<(-b-D.rsqrt())/(Rational(2)*a)<<endl;
+        cout<<"first "<<(-b+D.rsqrt())/(a * 2)<<endl;
+        cout<<"second "<<(-b-D.rsqrt())/(a * 2)<<endl;
 
     }else if (D==Rational(0)){
-        cout<< -b/(Rational(2)*a);
+        cout<< -b/(a*2);
 
     } else {
         cout<<"That's complex number";

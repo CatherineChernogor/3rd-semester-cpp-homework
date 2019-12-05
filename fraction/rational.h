@@ -42,6 +42,11 @@ public:
     operator int() const;
     operator double() const;
 
+    Rational operator + (int) const;
+    Rational operator - (int) const;
+    Rational operator * (int) const;
+    Rational operator / (int) const;
+
     friend istream& operator >>(istream& in, Rational& r);
     friend ostream& operator <<(ostream& out, const Rational& r);
 };
