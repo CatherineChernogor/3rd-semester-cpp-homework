@@ -1,8 +1,10 @@
 #include <iostream>
 #include "circleList.h"
+
 using namespace std;
 
 int getSize2();
+
 int getNumber();
 
 int main() {
@@ -12,16 +14,17 @@ int main() {
 
     CircleList<int> list;
     list.insertFirst(1);
-    CircleListElem<int>* ptr = list.getStart();
+    CircleListElem<int> *ptr = list.getStart();
 
     for (int i = 1; i < size; i++) {//creating start from 2 to 13
-        list.insertAfter(ptr,i+1);
+        list.insertAfter(ptr, i + 1);
         ptr = ptr->getNext();
     }
-
-    list.loopedList();
-    cout<<endl<<list;
-    cout<<"please"<<endl;
+ //    cout << list;
+    //list.loopedList();
+    list.setStart();
+    cout << endl << list;
+    cout << list;
 /*
     int counter = 0;
     for (int i = 0; counter < size; i++) {
@@ -32,7 +35,6 @@ int main() {
         }
         ptr = ptr->getNext();
     }*/
-    cout<<"might be"<<endl;
     return 0;
 }
 

@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 E:/3rd-semester-cpp-homework/iosif/circleList.h
+conio.h
+-
 
 E:/3rd-semester-cpp-homework/iosif/main.cpp
 iostream
