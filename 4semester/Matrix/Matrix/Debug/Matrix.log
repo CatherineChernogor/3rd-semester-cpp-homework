@@ -1,0 +1,6 @@
+﻿  Main.cpp
+E:\3rd-semester-cpp-homework\4semester\Matrix\Matrix\Main.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Matrix.cpp
+E:\3rd-semester-cpp-homework\4semester\Matrix\Matrix\Matrix.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
+  Matrix.vcxproj -> E:\3rd-semester-cpp-homework\4semester\Matrix\Debug\Matrix.exe
